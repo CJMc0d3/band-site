@@ -1,0 +1,46 @@
+.padding {
+padding-top: 10vh;
+};
+
+.nav-1{
+    padding-bottom: 15vh;
+};
+
+.loris {
+    font-family: 'Rock 3D', cursive;
+    font-weight: 800;
+}
+
+#loris {
+    font-family: 'Rock 3D', cursive; 
+    font-weight: 800;
+}
+
+body {
+    background-image: url("https://f4.bcbits.com/img/a2045110298_10.jpg");
+    background-color: #cccccc4f;
+  }
+
+  .int {
+   width: 350px;
+   height: 350px;
+   padding: 15px;
+  }
+
+  .albums {
+      align-items: center;
+      padding: 15px;
+      color: rgb(179, 178, 178);
+  }
+
+  .btn-1234 {
+      border: 0px;
+      opacity: 100%;
+      transition: .03s;
+  }
+
+  .btn-1234 :hover {
+      opacity: 65%;
+  }
+
+
