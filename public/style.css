@@ -24,23 +24,37 @@ body {
   .int {
    width: 350px;
    height: 350px;
-   padding: 15px;
+   padding: 4px;
   }
 
   .albums {
-      align-items: center;
       padding: 15px;
       color: rgb(179, 178, 178);
+      width: 43%;
+      margin: auto;
   }
 
+  @media only screen and (max-width: 1000px) {
+    .albums {
+        padding: 15px;
+        color: rgb(179, 178, 178);
+        width: 100%;
+    }}
+
   .btn-1234 {
+      opacity: 1;
+       transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
       border: 0px;
-      opacity: 100%;
-      transition: .03s;
   }
 
   .btn-1234 :hover {
-      opacity: 65%;
+      opacity: .65;
   }
 
-
+  .bcamp {
+      align-self: center;
+      width: 100%;
+  }
